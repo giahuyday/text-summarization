@@ -83,6 +83,8 @@ textarea {
 }
 
 .header{
+  background: rgb(38, 130, 250);
+  color: white;
   display: flex;
   justify-content:space-evenly;
   align-items: center;
@@ -102,7 +104,7 @@ textarea {
 
 a{
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 .menu ul{
