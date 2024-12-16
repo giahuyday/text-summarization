@@ -1,0 +1,171 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home{
+  min-width: 1260px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  width: 100;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text-input{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.text-summary {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-left: 1px solid black;
+}
+
+.input-text_heading{
+  margin-top: 0;
+}
+
+textarea {
+  width: 300px;
+  height: 30vh;
+}
+
+.header{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.logo img{
+  height: 60px;
+  width: 60px;
+  pointer-events: none;
+}
+
+.menu{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+}
+
+.menu ul li:hover{
+  text-decoration: underline;
+}
+
+.pages-btn{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.pages-btn button{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 50px;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.submit-btn{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-btn{
+  width: 132px;
+  height: 40px;
+  border: 1px solid black;
+  background: transparent;
+}
+
+.input-btn:hover{
+  background: blue;
+  color: white;
+  width: 140px;
+  height: 45px;
+  font-weight: 500;
+}
+
+.file-preview{
+  min-height: 80vh;
+}
+
+.file-input {
+  position: relative;
+  width: 100%;
+  max-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
